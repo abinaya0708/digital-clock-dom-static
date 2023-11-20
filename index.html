@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital clock</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media.css">
+</head>
+<body>
+<section id="clock">
+    <div class="container">
+        <div class="card">
+            <div class="date-row">
+                <div class="col">
+                    <p>DATE</p>
+                </div>
+                <div class="col">
+                    <P>MONTH</P>
+                </div>
+                <div class="col">
+                    <P>YEAR</P>
+                </div>
+            </div>
+
+            <div class="num-row">
+                <div class="col">
+                    <p id="date"></p>
+                </div>
+                <div class="col">
+                    <p id="month"></p>
+                </div>
+                <div class="col">
+                    <p id="year"></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    TIME
+                </div>
+                <div class="col">
+                    <p id="hours"></p>
+                    
+                </div>
+                <span>:</span>
+                <div class="col">
+                    <p id="mins"></p>
+                </div>
+                <span>:</span>
+                <div class="col">
+                    <p id="seconds"></p>
+                </div>
+                <div class="col">
+                    <p class="zone"><i class="fa fa-circle" id="zone1"  aria-hidden="true"></i>AM</p>
+                    <p class="zone"><i class="fa fa-circle" id="zone2" aria-hidden="true"></i>PM</p>
+                </div>
+            </div>
+
+            <div class="icon-row ">
+                <div class="col bottom" >
+                    <i class="fa fa-circle" id="icon1" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon2" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon3" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon4" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon5" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon6" aria-hidden="true"></i>
+                </div>
+                <div class="col bottom">
+                    <i class="fa fa-circle" id="icon7" aria-hidden="true"></i>
+                </div>
+            </div>
+
+            <div class="day-row">
+                <div class="col">
+                    <p>SUN</p>
+                </div>
+                <div class="col">
+                    <p>MON</p>
+                </div>
+                <div class="col">
+                    <p>TUE</p>
+                </div>
+                <div class="col">
+                    <p>WED</p>
+                </div>
+                <div class="col">
+                    <p>THU</p>
+                </div>
+                <div class="col">
+                    <p>FRI</p>
+                </div>
+                <div class="col">
+                    <p>SAT</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<script src="dom.js"></script>
+</body>
+</html>

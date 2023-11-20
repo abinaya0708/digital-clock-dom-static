@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    /* width:30%; */
+    margin: auto;
+    color: aliceblue;
+
+    padding-top: 5%;
+
+
+}
+.card{
+    
+    background-color: black;
+    /* box-shadow: 0 0 20px rgb(146, 135, 135); */
+    border:1px solid gray;
+    padding:10px;
+
+    outline: 50px solid black;
+
+}
+.date-row{
+    display: flex;
+    justify-content:space-between;
+    padding:2px 0;
+}
+.num-row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:1px 0 5px 0;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:5px 0;
+}
+.col{
+    padding: 5px 5px;
+}
+#date,#month,#year{
+    border:1px solid rgb(116, 88, 88);
+    width:80px;
+    height:30px;
+    text-align: center;
+    color:red;
+    text-shadow: 0 0 20px red;
+    font-size: 25px;
+
+    background-color: rgba(223,214,214,0.2);
+}
+
+#hours,#mins,#seconds{
+    border:1px solid rgb(116, 88, 88);
+    /* width:50px;
+    height:30px; */
+
+    text-align: center;
+    color:red;
+    text-shadow: 0 0 20px red;
+    font-size: 25px;
+
+    background-color: rgba(233, 214, 214, 0.2);
+}
+
+
+span{
+
+
+    color:red;
+
+    font-weight: bolder;
+    font-size: 20px;
+    text-shadow: 0 0 5px red;
+}
+
+
+#zone1,#zone2 {
+    font-size: 10px;
+    padding: 2px 5px;
+    color:white;
+}
+.bottom i{
+    color:white;
+}
+.icon-row{
+
+    display: flex;
+    justify-content: space-around;
+    padding:5px 0;
+    
+}
+.day-row{
+    display: flex;
+    justify-content: space-around;
+
+}
+.icon-row i{
+    font-size: 10px;
+}

@@ -1,0 +1,31 @@
+@media(min-width:320px){
+    .container{
+        width:80%;
+    }
+
+    #hours,#mins,#seconds{
+        width:40px;
+        height:30px;
+        }
+}
+
+@media(min-width:720px){
+    .container{
+        width:50%;
+    }
+
+    #hours,#mins,#seconds{
+        width:50px;
+        height:30px;
+        }
+}
+
+@media(min-width:960px){
+    .container{
+        width:30%;
+    }
+    #hours,#mins,#seconds{
+        width:50px;
+        height:30px;
+    }
+}
